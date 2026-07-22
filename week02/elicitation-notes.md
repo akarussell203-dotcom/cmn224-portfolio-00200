@@ -1,0 +1,1 @@
+#Elicitation/nelicitation in PNG has its own context in PNG. How we gather information and the way we do so is unique in it own culture. Elicitation is a strategic communication technique used to extract information without making the subject fell interigated.
