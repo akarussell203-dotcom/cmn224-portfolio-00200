@@ -7,3 +7,7 @@
 
 ## Description
 This portfolio is a comprehensive collection of my work and projects demonstrating my progress throughout this unit.
+
+## Date
+Todays Date: 1/23/26
+
