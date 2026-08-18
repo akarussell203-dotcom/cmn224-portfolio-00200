@@ -122,7 +122,7 @@ public class FeeCalculatorTests
         var result = calc.IsClearedForExams(600m, payments);//600 FullFee
 
         //Assert
-        Assert.True(result); //100m Outstanding
+        Assert.True(result); //300m Outstanding
     }
 
 
@@ -140,6 +140,6 @@ public class FeeCalculatorTests
         var results = calc.IsClearedForExams(600m, payments);//600 FullFee
 
         //Assert
-        Assert.False(results); //100m Overpeyment
+        Assert.False(results); //more than 300m Overpeyment
     }
 }
