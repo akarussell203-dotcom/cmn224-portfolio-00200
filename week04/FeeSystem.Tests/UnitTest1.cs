@@ -134,7 +134,7 @@ public class FeeCalculatorTests
 
         //Arrange
         var calc = new FeeCalculator();
-        var payments = new List<decimal> { 299.99m }; //one Toea Below Half
+        var payments = new List<decimal> { 299.99m }; //Below Half payment
 
         //Act
         var results = calc.IsClearedForExams(600m, payments);//600 FullFee
