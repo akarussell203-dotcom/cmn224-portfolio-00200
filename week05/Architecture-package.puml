@@ -1,0 +1,15 @@
+@statuml
+Package "UI layer" {
+[Fee Entry Form]
+}
+
+package "Business Logic"{
+[Fee Service]
+}
+
+package "Data Access"{
+[Payment Repository]
+}
+[Fee Entry Form] --> [Fee Service]
+[Fee Service] --> [Payment Repository]
+@enduml

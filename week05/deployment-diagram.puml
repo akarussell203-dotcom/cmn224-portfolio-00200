@@ -1,0 +1,15 @@
+@startuml
+node "School laptop" { 
+[App] 
+database "Local SQLite" 
+} 
+node "Printer" {
+[Output Device]
+}
+node "Cloud Server" { 
+[Consolidation] 
+database "Master DB" 
+} 
+[App] ..> [Consolidation] : 4G when available
+[App] ..> [Output Device] : Prints out term Reports for the Board
+@enduml

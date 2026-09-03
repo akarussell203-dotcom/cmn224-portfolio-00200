@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FeeSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1733c2a5783fb634dd06484535f5e05599a6b32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c875262e98588caeb3feafcb34fee67ff7d8bf22")]
 [assembly: System.Reflection.AssemblyProductAttribute("FeeSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FeeSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
