@@ -1,0 +1,161 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="iFJqSNu1zJDuYPB0ScbE">
+    <mxGraphModel dx="691" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TA_AihM_1BijzJyweYlc-1" parent="1" style="html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="790" width="350" x="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Record Members" vertex="1">
+          <mxGeometry height="80" width="140" x="295" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Record Produce" vertex="1">
+          <mxGeometry height="70" width="140" x="295" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Record Payments" vertex="1">
+          <mxGeometry height="70" width="140" x="295" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="View Payment&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="140" x="295" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="View Members" vertex="1">
+          <mxGeometry height="70" width="140" x="295" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="View Produce" vertex="1">
+          <mxGeometry height="70" width="140" x="295" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Depot Clerk" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="MemberCommittee" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-10" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Members" vertex="1">
+          <mxGeometry height="60" width="30" x="640" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-11" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-2" value="Record">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="80" y="244.5" as="sourcePoint" />
+            <mxPoint x="240" y="244.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-12" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-3" value="Record">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="80" y="245" as="sourcePoint" />
+            <mxPoint x="306" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-13" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-4" value="Record">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="80" y="260" as="sourcePoint" />
+            <mxPoint x="310" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-14" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-9" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-6" value="View">
+          <mxGeometry relative="1" width="160" x="-0.0003" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="70" y="519.5" as="sourcePoint" />
+            <mxPoint x="230" y="519.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-15" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-9" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-5" value="View">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-16" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-9" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-7" value="View">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="70" y="560" as="sourcePoint" />
+            <mxPoint x="300" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-17" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-10" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-5" value="View">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Change Payment" vertex="1">
+          <mxGeometry height="70" width="140" x="295" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-19" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-18" value="View">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="398" as="sourcePoint" />
+            <mxPoint x="339" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-21" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Treasurer" vertex="1">
+          <mxGeometry height="60" width="30" x="650" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-22" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-24" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-22" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-18" value="Change">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="70" y="714.5" as="sourcePoint" />
+            <mxPoint x="230" y="714.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-25" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-21" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-18" value="Record">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="610" y="715" as="sourcePoint" />
+            <mxPoint x="675" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-26" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-10" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-18" value="View">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Make Payment" vertex="1">
+          <mxGeometry height="70" width="140" x="295" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-28" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-27" value="Pay">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-29" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-10" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-27" value="Recieve">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="470" y="680" as="sourcePoint" />
+            <mxPoint x="630" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-32" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-21" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-4" value="Record">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="510" y="800" as="sourcePoint" />
+            <mxPoint x="670" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-33" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-21" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-27" value="Transact">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-34" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-22" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-27" value="Manage">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-35" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-22" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-6" value="Manage">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA_AihM_1BijzJyweYlc-36" edge="1" parent="1" source="TA_AihM_1BijzJyweYlc-22" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TA_AihM_1BijzJyweYlc-7" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
